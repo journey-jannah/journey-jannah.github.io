@@ -1,0 +1,162 @@
+/*==========================================
+#1.0 pilars-area
+=============================================*/
+
+
+.pilarts-img {
+    width: 280px;
+    height: 280px;
+    line-height: 280px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.pilars-area .grid:nth-child(1) .pilars-text h2 {
+    background: linear-gradient(to left, #AB1F2C, #c72d3c);
+    background: -webkit-linear-gradient(to left, #AB1F2C, #c72d3c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pilars-area .grid:nth-child(2) .pilars-text h2 {
+    background: linear-gradient(to left, #18588F, #2c7ec7);
+    background: -webkit-linear-gradient(to left, #18588F, #2c7ec7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pilars-area .grid:nth-child(3) .pilars-text h2 {
+    background: linear-gradient(to left, #00A5E4, #1bb3f0);
+    background: -webkit-linear-gradient(to left, #00A5E4, #1bb3f0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pilars-area .grid:nth-child(4) .pilars-text h2 {
+    background: linear-gradient(to left, #f34c10, #F14F14);
+    background: -webkit-linear-gradient(to left, #f34c10, #F14F14);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pilars-area .grid:nth-child(5) .pilars-text h2 {
+    background: linear-gradient(to left, #FF7000, #ff7710);
+    background: -webkit-linear-gradient(to left, #FF7000, #ff7710);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.pilars-area .grid .pilars-text h2 {
+    font-size: 30px;
+}
+
+.pilarts-img img {
+    transform: scale(0.5);
+    transition: all .3s;
+    width: 100%;
+}
+
+.pilarts-img:hover img {
+    transform: scale(0.7);
+    transition: all .3s;
+}
+
+.pilars-area .row-grid {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.pilars-area .row-grid .grid {
+    float: left;
+    width: 20%;
+}
+
+.pilars-area {
+    padding: 80px 170px;
+}
+
+.pilars-item {
+    text-align: center;
+}
+
+.pilars-text {
+    margin-top: 30px;
+}
+
+
+@media(max-width: 1800px) {
+    .pilarts-img {
+        width: 195px;
+        height: 195px;
+    }
+}
+
+
+@media(max-width: 1400px) {
+    .pilarts-img {
+        width: 165px;
+        height: 165px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .pilars-area .row-grid .grid {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media(max-width: 991px) {
+    .pilars-area .row-grid .grid {
+        float: left;
+        width: 50%;
+    }
+
+    .pilarts-img {
+        width: 205px;
+        height: 205px;
+    }
+
+    .pilars-area {
+        padding: 80px 40px;
+    }
+}
+
+@media(max-width: 767px) {
+    .pilars-area .row-grid .grid {
+        float: none;
+        width: 100%;
+    }
+
+    .pilarts-img {
+        width: 295px;
+        height: 295px;
+    }
+
+    .pilars-item {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 575px) {
+    .pilarts-img {
+        width: 235px;
+        height: 235px;
+    }
+
+    .pilars-area {
+        padding: 45px 20px 20px;
+    }
+}
