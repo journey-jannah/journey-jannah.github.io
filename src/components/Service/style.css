@@ -6,6 +6,10 @@
     padding: 200px 0;
 }
 
+a.link-alt {
+    color: #FB9C7D !important; 
+}
+
 .service-title span {
     font-size: 18px;
     padding: 8px 25px;

@@ -34,8 +34,8 @@ const Service = (props) => {
                                     </ul>
                                     <ul>
                                         <li>Digital Skills</li>
-                                        <li><a href="mailto:j2jistem@gmail.com">Contact</a></li>
-                                        <li><a href="mailto:j2jistem@gmail.com">Contact</a></li>
+                                        <li><a className="link-alt" href="mailto:j2jistem@gmail.com">Contact</a></li>
+                                        <li><a className="link-alt" href="mailto:j2jistem@gmail.com">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div className="btns">
