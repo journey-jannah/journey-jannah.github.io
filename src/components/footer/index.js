@@ -64,7 +64,7 @@ const Footer = (props) =>{
                                 <div className="contact-ft">
                                     <ul>
                                         <li><i className="fi flaticon-call"></i>(617) 752-1648</li>
-                                        <li><i className="fi flaticon-envelope"></i>j2jistem@gmail.com</li>
+                                        <li Link onClick={ClickHandler} to="mailto:info@myj2j.org"><i className="fi flaticon-envelope"></i>info@myj2j.org</li>
                                     </ul>
                                 </div>
                             </div>
