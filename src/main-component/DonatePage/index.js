@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
-import Navbar from '../../components/Navbar'
-import PageTitle from '../../components/pagetitle'
-import Donate from '../../components/Donate'
+import Navbar from '../../components/nav'
+import PageTitle from '../../components/pg-title'
+import Donate from '../../components/donate'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 

@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
-import Navbar from '../../components/Navbar'
-import PageTitle from '../../components/pagetitle'
+import Navbar from '../../components/nav'
+import PageTitle from '../../components/pg-title'
 import Error from '../../components/404'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'

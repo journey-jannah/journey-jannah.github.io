@@ -1,29 +1,28 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
-import BlogSidebar from '../BlogSidebar'
-import VideoModal from '../../components/ModalVideo'
-import './style.css'
+import { Link } from 'react-router-dom'
+import VideoModal from '../../components/modal-vid'
+
 import blog1 from '../../images/blog/img-7.jpg'
 import blog2 from '../../images/blog/img-9.jpg'
 import blog3 from '../../images/blog/img-8.jpg'
 
 
-const BlogList = () => {
+const BlogFullwidth = () => {
 
-    const ClickHandler = () =>{
+    const ClickHandler = () => {
         window.scrollTo(10, 0);
-     }
+    }
 
 
-    return(
+    return (
         <section className="wpo-blog-pg-section section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="col col-lg-8">
+                    <div className="col col-lg-10 offset-lg-1">
                         <div className="wpo-blog-content">
                             <div className="post format-standard-image">
                                 <div className="entry-media">
-                                   <img src={blog1} alt="" />
+                                    <img src={blog1} alt="" />
                                 </div>
                                 <ul className="entry-meta">
                                     <li><Link onClick={ClickHandler} to="/blog-details"> By Robert harry</Link></li>
@@ -111,7 +110,7 @@ const BlogList = () => {
                                 <div className="entry-media video-holder">
                                     <img src={blog2} alt="" />
                                     <div className="video-btn2">
-                                        <VideoModal/>
+                                        <VideoModal />
                                     </div>
                                 </div>
                                 <div className="blog-thumb-badge">
@@ -171,12 +170,11 @@ const BlogList = () => {
                             </div>
                         </div>
                     </div>
-                    <BlogSidebar/>
                 </div>
             </div>
         </section>
-     )
-        
+    )
+
 }
 
-export default BlogList;
+export default BlogFullwidth;

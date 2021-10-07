@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
-import SidebarWrap from '../SidebarWrap'
+import SidebarWrap from '../sdbr-wrap'
 import simg from '../../images/event-details2.jpg'
 
 

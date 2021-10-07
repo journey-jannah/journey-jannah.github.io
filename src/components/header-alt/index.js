@@ -1,8 +1,8 @@
 import React from 'react'
 import Logo from '../../images/logo-2.svg'
-import HeaderTopbar2 from '../HeaderTopbar2'
+import HeaderTopbar2 from '../header-tpbr-alt'
 import {Link}  from 'react-router-dom'
-import MobileMenu from '../MobileMenu'
+import MobileMenu from '../mob-menu'
 import './style.css'
 
 const Header2 = () => {

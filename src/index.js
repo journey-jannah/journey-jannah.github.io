@@ -7,6 +7,9 @@ import './css/font-awesome.min.css';
 import './css/themify-icons.css';
 import './css/flaticon.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactGA from 'react-ga';
+const TRACKING_ID = "UA-175593078-2"; 
+ReactGA.initialize(TRACKING_ID);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

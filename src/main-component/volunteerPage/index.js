@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
+import PageTitle from '../../components/pg-title'
 import Volunteer from '../../components/Volunteer'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'

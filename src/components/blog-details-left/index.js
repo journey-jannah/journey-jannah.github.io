@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import BlogSidebar from '../BlogSidebar'
+import BlogSidebar from '../blog-sdbr'
 import blog1 from '../../images/blog/img-7.jpg'
 import blog2 from '../../images/blog-details/author.jpg'
 import blog3 from '../../images/blog-details/comments-author/img-1.jpg'

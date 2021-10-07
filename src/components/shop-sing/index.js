@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import ShopTabs from '../shoptabs'
+import ShopTabs from '../shop-tabs'
 
 import prdetails from '../../images/shop/shop-single/img-1.jpg'
 

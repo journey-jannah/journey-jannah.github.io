@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
-import Navbar from '../../components/Navbar'
-import PageTitle from '../../components/pagetitle'
-import BlogFullwidth from '../../components/BlogFullwidth'
+import Navbar from '../../components/nav'
+import PageTitle from '../../components/pg-title'
+import BlogFullwidth from '../../components/blog-full-width'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 

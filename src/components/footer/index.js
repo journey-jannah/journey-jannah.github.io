@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
 import Logo from '../../images/logo.svg'
-import Newsletter from '../Newsletter'
+import Newsletter from '../newsletter'
 import './style.css'
 
 const Footer = (props) =>{
@@ -64,7 +64,7 @@ const Footer = (props) =>{
                                 <div className="contact-ft">
                                     <ul>
                                         <li><i className="fi flaticon-call"></i>(617) 752-1648</li>
-                                        <li Link onClick={ClickHandler} to="mailto:info@myj2j.org"><i className="fi flaticon-envelope"></i>info@myj2j.org</li>
+                                        <li><i className="fi flaticon-envelope"></i>info@myj2j.org</li>
                                     </ul>
                                 </div>
                             </div>

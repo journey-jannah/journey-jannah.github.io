@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import BlogSidebar from '../BlogSidebar'
-import VideoModal from '../../components/ModalVideo'
+import BlogSidebar from '../blog-sdbr'
+import VideoModal from '../../components/modal-vid'
 
 import blog1 from '../../images/blog/img-7.jpg'
 import blog2 from '../../images/blog/img-9.jpg'

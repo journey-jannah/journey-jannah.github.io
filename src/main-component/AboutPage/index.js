@@ -1,8 +1,8 @@
 import React, {Fragment} from 'react';
-import Navbar from '../../components/Navbar'
-import PageTitle from '../../components/pagetitle'
+import Navbar from '../../components/nav'
+import PageTitle from '../../components/pg-title'
 import About from '../../components/about'
-import Course from '../../components/Course'
+import Course from '../../components/course'
 import EventSection from '../../components/event'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'

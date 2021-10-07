@@ -1,5 +1,5 @@
 import React from "react";
-import Header2 from '../header2';
+import Header2 from '../header-alt';
 
 export default function Navbar2() {
   const [scroll, setScroll] = React.useState(0);
