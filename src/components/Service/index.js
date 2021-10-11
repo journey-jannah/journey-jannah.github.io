@@ -1,6 +1,6 @@
 import React from 'react'
-import service1 from '../../images/service/img-1.png'
-import service2 from '../../images/service/img-2.png'
+import service1 from '../../images/service/img-1.svg'
+import service2 from '../../images/service/img-2.svg'
 import './style.css'
 
 const Service = (props) => {

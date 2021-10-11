@@ -23,7 +23,7 @@
     max-width: 970px;
     margin: auto;
     box-shadow: 0px 4px 9.5px 0.5px rgba(53, 53, 53, 0.1);
-    padding: 60px;
+    padding: 50px;
     background: #fff;
 }
 
@@ -263,7 +263,7 @@
 
 .wpo-site-footer .link-widget ul>li+li,
 .wpo-site-footer-2 .link-widget ul>li+li {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 @media screen and (min-width: 1200px) {

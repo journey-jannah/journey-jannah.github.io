@@ -20,6 +20,7 @@ nav > ul > li {
 	display: inline-block;
 	margin-right: -1px;
 	position: relative;
+	border-radius: 5px;
 }
 nav ul li a {
 	display: inline-block;
@@ -71,21 +72,23 @@ nav ul ul {
 	top: 104%;
 	left: 0;
 	width: 215px;
-	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.08);
-	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.08);
-	-ms-box-shadow: 0 0 20px rgba(0,0,0,0.08);
-	-o-box-shadow: 0 0 20px rgba(0,0,0,0.08);
-	box-shadow: 0 0 20px rgba(0,0,0,0.08);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.03);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.03);
+	-ms-box-shadow: 0 0 20px rgba(0,0,0,0.03);
+	-o-box-shadow: 0 0 20px rgba(0,0,0,0.03);
+	box-shadow: 0 0 20px rgba(0,0,0,0.03);
 	opacity: 0;
 	visibility: hidden;
+	border-radius: 15px;
 	z-index: 99;
 	text-align: left;
 }
 nav ul ul li {
 	padding: 10px 15px;
+	border-radius: 20px;
 	background-color: #fff;
 	border-bottom: 1px solid #ebebeb;
-	margin-top: 20px;
+	margin-top: 15px;
 	position: relative;
 	transition: all .5s;
 	position: relative;

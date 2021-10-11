@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-175593078-2');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (

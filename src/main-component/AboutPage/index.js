@@ -6,7 +6,7 @@ import Course from '../../components/course'
 import EventSection from '../../components/event'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
-import abimg from '../../images/about3.png'
+import abimg from '../../images/about-3.svg'
 import evn1 from '../../images/event/img-3.jpg'
 import evn2 from '../../images/event/img-4.jpg'
 

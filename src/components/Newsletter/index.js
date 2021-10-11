@@ -11,6 +11,8 @@ const Newsletter = (props) => {
             <div className="container">
                 <div className="wpo-news-letter-wrap">
                     <div className="row">
+                        <div>
+                            <br></br>
                         <div className="col col-lg-10 offset-lg-1 col-md-8 offset-md-2">
                             <div className="wpo-newsletter">
                                 <h3>Stay in the Loop on Everything J2J!</h3>
@@ -24,6 +26,7 @@ const Newsletter = (props) => {
                                     </form>
                                 </div>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
