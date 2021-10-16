@@ -12,10 +12,10 @@ const Hero = (props) => {
                         <div className="row">
                             <div className="col col-lg-7 slide-caption">
                                 <div className="slide-top">
-                                    <span>Join Us!</span>
+                                    <span>J 2 J</span>
                                 </div>
                                 <div className="slide-title">
-                                    <h2>Empowering Women & Youth in the Islamic Community.</h2>
+                                    <h2><b>Empowering Women & Youth in the Islamic Community.</b></h2>
                                 </div>
                                 <div className="slide-subtitle">
                                     <p>Helping the community with both spiritual and practical guidance <br></br> in achieving self-sustainance.</p>

@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './style.css' 
 
+
 const About = (props) => {
     const ClickHandler = () =>{
         window.scrollTo(10, 0);

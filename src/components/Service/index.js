@@ -14,7 +14,7 @@ const Service = (props) => {
                                 <div className="service-title">
                                     <span>Featured Programs</span>
                                     <h2>Our Programs for Islamic Learning</h2>
-                                    <p>Journey to Jannah deploys a series of Islamic classes and workshops utilizing modern approaches to the </p>
+                                    <p>Journey to Jannah deploys a series of Islamic classes and workshops utilizing modern approaches to understanding how Islam plays in the modern world.</p>
                                 </div>
                                 <div className="routine-table">
                                     <ul className="routne-head">
@@ -39,7 +39,7 @@ const Service = (props) => {
                                     </ul>
                                 </div>
                                 <div className="btns">
-                                    <a href="/service-single" className="theme-btn-s3">See More</a>
+                                    <a href="/weekly-quran" className="theme-btn-s3">See More</a>
                                 </div>
                             </div>
                         </div>

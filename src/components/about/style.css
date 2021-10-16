@@ -16,11 +16,13 @@
     margin-bottom: 35px;
 }
 
-.wpo-about-text {}
-
 .wpo-about-img img,
 .wpo-about-img-2 img {
     width: 100%;
+}
+
+span {
+    font-weight: lighter!important;
 }
 
 
@@ -39,7 +41,7 @@
 
 
 .wpo-about-wrap {
-    padding-bottom: 120px;
+    padding-bottom: 50px;
 }
 
 .wpo-event-area-2 .wpo-event-item {
@@ -47,7 +49,7 @@
 }
 
 .wpo-event-area-2.section-padding {
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 
 @media(max-width: 991px) {
@@ -76,7 +78,7 @@
     }
 
     .wpo-about-wrap {
-        padding-bottom: 60px;
+        padding-bottom: 50px;
     }
 
     .wpo-about-text {

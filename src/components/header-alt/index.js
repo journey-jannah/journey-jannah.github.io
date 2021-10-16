@@ -31,9 +31,9 @@ const Header2 = () => {
                             <ul>
                                     <li><Link onClick={ClickHandler} className="active" to="/home" title="">Home</Link></li>
                                     <li><Link onClick={ClickHandler} to="/about" title="">About</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service" title="">Classes</Link>
+                                    <li><Link onClick={ClickHandler} to="/classes" title="">Classes</Link>
                                         <ul>
-                                            <li><Link onClick={ClickHandler} to="/service-single" title="">Weekly Quran Class</Link></li>
+                                            <li><Link onClick={ClickHandler} to="/weekly-quran" title="">Weekly Quran Class</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link onClick={ClickHandler} to="/event" title="">Events</Link>

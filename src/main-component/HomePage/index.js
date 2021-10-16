@@ -20,6 +20,7 @@ const HomePage =() => {
             <Service/>
             <Pilars/>
             <Support/>
+
             <Footer/>
             <Scrollbar/>
         </Fragment>

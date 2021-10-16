@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../images/logo.svg'
+import Logo from '../../logo.svg'
 import {Link}  from 'react-router-dom'
 import HeaderTopbar from '../header-tpbr'
 import MobileMenu from '../../components/mob-menu'
@@ -23,7 +23,7 @@ const Header = () => {
                     <div className="row">
                         <div className="col-lg-3 col-md-4 col-sm-4 col-4">
                             <div className="logo">
-                                <Link onClick={ClickHandler} to="/home" title=""><img src={Logo} alt=""/></Link>
+                                <Link onClick={ClickHandler} to="/" title=""><img src={Logo} alt=""/></Link>
                             </div>
                         </div>
                         <div className="col-lg-8 d-lg-block d-none">
@@ -31,9 +31,9 @@ const Header = () => {
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/home" title="">Home</Link></li>
                                     <li><Link onClick={ClickHandler} to="/about" title="">About</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service" title="">Classes</Link>
+                                    <li><Link onClick={ClickHandler} to="/classes" title="">Classes</Link>
                                         <ul>
-                                            <li><Link onClick={ClickHandler} to="/service-single" title="">Weekly Quran Class</Link></li>
+                                            <li><Link onClick={ClickHandler} to="/weekly-quran" title="">Weekly Quran Class</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link onClick={ClickHandler} to="/event" title="">Events</Link>

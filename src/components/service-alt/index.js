@@ -18,32 +18,32 @@ const Service2 = (props) => {
         {
            simg:service1,
            title:"Quran Memorization",
-           link:"/service-single"
+           link:"/weekly-quran"
         },
         {
            simg:service2,
            title:"Special Child Care",
-           link:"/service-single"
+           link:"/weekly-quran"
         },
         {
            simg:service3,
            title:"Mosque Development",
-           link:"/service-single"
+           link:"/weekly-quran"
         },
         {
            simg:service4,
            title:"Matrimonial",
-           link:"/service-single"
+           link:"/weekly-quran"
         },
         {
            simg:service5,
            title:"Funerals",
-           link:"/service-single"
+           link:"/weekly-quran"
         },
         {
            simg:service6,
            title:"Help Poor",
-           link:"/service-single"
+           link:"/weekly-quran"
         },
     ]
 

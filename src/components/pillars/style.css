@@ -3,18 +3,47 @@
 =============================================*/
 
 
-.pilarts-img {
+.pillars-img {
     width: 280px;
     height: 280px;
-    line-height: 280px;
+    line-height: 240px;
     overflow: hidden;
-    border-radius: 50%;
-    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    /*border-radius: 50%;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);*/
     text-align: center;
     margin: 0 auto;
 }
 
+a:hover .pillar-img {
+    border: solid 0.000000001px #CCC;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
 
+
+.pillars-img {
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+z-index: -99px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.pillars-img:hover {
+-webkit-filter: grayscale(0%);
+filter: grayscale(0%);
+z-index: -99px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+/*
 .pilars-area .grid:nth-child(1) .pilars-text h2 {
     background: linear-gradient(to left, #AB1F2C, #c72d3c);
     background: -webkit-linear-gradient(to left, #AB1F2C, #c72d3c);
@@ -54,7 +83,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+*/
 
 
 
@@ -62,14 +91,14 @@
     font-size: 30px;
 }
 
-.pilarts-img img {
+.pillars-img img {
     transform: scale(0.5);
     transition: all .3s;
     width: 100%;
 }
 
-.pilarts-img:hover img {
-    transform: scale(0.7);
+.pillars-img:hover img {
+    transform: scale(0.6);
     transition: all .3s;
 }
 
@@ -97,7 +126,7 @@
 
 
 @media(max-width: 1800px) {
-    .pilarts-img {
+    .pillars-img {
         width: 195px;
         height: 195px;
     }
@@ -105,7 +134,7 @@
 
 
 @media(max-width: 1400px) {
-    .pilarts-img {
+    .pillars-img {
         width: 165px;
         height: 165px;
     }
@@ -124,7 +153,7 @@
         width: 50%;
     }
 
-    .pilarts-img {
+    .pillars-img {
         width: 205px;
         height: 205px;
     }
@@ -140,7 +169,7 @@
         width: 100%;
     }
 
-    .pilarts-img {
+    .pillars-img {
         width: 295px;
         height: 295px;
     }
@@ -151,7 +180,7 @@
 }
 
 @media(max-width: 575px) {
-    .pilarts-img {
+    .pillars-img {
         width: 235px;
         height: 235px;
     }

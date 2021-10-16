@@ -24,7 +24,7 @@ const menus = [
             {
                 id: 31,
                 title: 'Weekly Quran Class',
-                link: '/service-single'
+                link: '/weekly-quran'
             }
         ]
     },

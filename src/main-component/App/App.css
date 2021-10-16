@@ -2,6 +2,9 @@
   Fonts
 ----------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Rubik:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 @font-face {
     font-family: 'Conv_Now-Bold';
@@ -47,7 +50,7 @@ html {
 }
 
 body {
-    font-family: 'Now'!important;
+    font-family: 'DM Sans'!important;
     background-color: #fff;
     font-size: 16px;
     font-size: 1rem;
@@ -75,7 +78,8 @@ p {
 
 h1,
 h2 {
-    font-family: 'Conv_Now-Bold';
+    font-family: 'DM Sans';
+    font-weight: bolder;
     color: #FB9C7D;
 }
 h1,
@@ -88,7 +92,7 @@ h3,
 h4,
 h5,
 h6{
-    font-family: 'Conv_Now-Bold';
+    font-family: 'Lato';
 }
 
 ul {
