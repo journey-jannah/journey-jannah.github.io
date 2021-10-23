@@ -24,9 +24,9 @@ const Footer = (props) =>{
                                 </div>
                                 <p>Connect with us to stay in the loop on current projects, classes, and more!</p>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="https://m.facebook.com/pages/category/Community-Service/Journey-to-Jannah-100734968223242/"><i className="fa fa-facebook"></i></Link></li>
-                                    <li><Link onClick={ClickHandler} to="https://twitter.com/JtoJYouthWing?s=20"><i className="fa fa-twitter"></i></Link></li>
-                                    <li><Link onClick={ClickHandler} to="https://instagram.com/journeytojannah_youthwing?igshid=hm76cionmdoz"><i className="fa fa-instagram"></i></Link></li>
+                                    <li><Link to="//m.facebook.com/pages/category/Community-Service/Journey-to-Jannah-100734968223242/"><i className="fa fa-facebook"></i></Link></li>
+                                    <li><Link to="//twitter.com/JtoJYouthWing?s=20"><i className="fa fa-twitter"></i></Link></li>
+                                    <li><Link to="//instagram.com/journeytojannah_youthwing?igshid=hm76cionmdoz"><i className="fa fa-instagram"></i></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -63,8 +63,8 @@ const Footer = (props) =>{
                                 <p>Have questions? Feel free to contact us!</p>
                                 <div className="contact-ft">
                                     <ul>
-                                        <li><i className="ti-mobile"></i> (617) 752-1648</li>
-                                        <li><i className="fa fa-envelope"></i> info@myj2j.org</li>
+                                        <li><i className="ti-mobile"></i><Link to="//tel:6177521648"> (617) 752-1648</Link></li>
+                                        <li><i className="fa fa-envelope"></i><Link to="//mailto:info@myj2j.org"> info@myj2j.org</Link></li>
                                     </ul>
                                 </div>
                             </div>
