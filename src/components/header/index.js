@@ -44,7 +44,7 @@ const Header = () => {
                                             <li><Link onClick={ClickHandler} to="/donate" title="">Donate</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link onClick={ClickHandler} to="/blog">Youth</Link>
+                                    <li><Link onClick={ClickHandler} to="/youth">Youth</Link>
 
                                     </li>
                                     <li><Link onClick={ClickHandler} to="/contact" title="">Contact</Link></li>

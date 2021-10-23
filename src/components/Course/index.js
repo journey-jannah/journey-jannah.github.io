@@ -1,45 +1,39 @@
 import React from 'react'
-import icon1 from '../../images/course/icon1.png'
-import icon2 from '../../images/course/icon2.png'
-import icon3 from '../../images/course/icon3.png'
-import icon4 from '../../images/course/icon4.png'
-import icon5 from '../../images/course/icon5.png'
-import icon6 from '../../images/course/icon6.png'
-
 import './style.css'
 
 const Course = (props) => {
 
     const courses = [
         {
-          cIcon:icon1,
-          heading:"Quran Memorization",
-          pra:"This course intends to help the students memorize Holy Quran. Students who wish to memorize a part or all the Quran.",
+          cIcon:"ti-heart",
+          heading:"Community",
+          pra:"Establishing a community that is tightly intertwined by the mutual love of Allah (SWT).", 
+          
         },
         {
-          cIcon:icon2,
-          heading:"Junior Preschool",
-          pra:"This course intends to help the students memorize Holy Quran. Students who wish to memorize a part or all the Quran.",
+          cIcon:"ti-book",
+          heading:"Education",
+          pra:"Promoting weekly classes that not only educate but communicate core principles & ideas of Islam itself.",
         },
         {
-          cIcon:icon3,
-          heading:"Junior High School",
-          pra:"This course intends to help the students memorize Holy Quran. Students who wish to memorize a part or all the Quran.",
+          cIcon:"ti-stats-up",
+          heading:"Relevance",
+          pra:"As an organization we focus on teaching things that provide contemporary value from partnerships with leaders in education to personal finance.",
         },
         {
-          cIcon:icon4,
-          heading:"Islamic Education",
-          pra:"This course intends to help the students memorize Holy Quran. Students who wish to memorize a part or all the Quran.",
+          cIcon:"ti-control-shuffle",
+          heading:"Flexibile",
+          pra:"We understand the need for modern solutions - all of our classes are 100% online and accessible to anyone with internet.",
         },
         {
-          cIcon:icon5,
-          heading:"Arabic Language",
-          pra:"This course intends to help the students memorize Holy Quran. Students who wish to memorize a part or all the Quran.",
+          cIcon:"ti-cloud-up",
+          heading:"Inclusive",
+          pra:"We have made it a priority to include all who wish to learn into our teachings, we even created our Youth Wing to include the youth",
         },
         {
-          cIcon:icon6,
-          heading:"Learning Technologies",
-          pra:"This course intends to help the students memorize Holy Quran. Students who wish to memorize a part or all the Quran.",
+          cIcon:"ti-infinite",
+          heading:"Scalable",
+          pra:"Our classes and events are designed in a way that can support hundreds to thousands of people without sacrificing on quality.",
         },
     ]
     return(
@@ -48,8 +42,8 @@ const Course = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>Top Courses</span>
-                            <h2>Our Populer Courses</h2>
+                            <span>Our Values</span>
+                            <h2>What We Offer</h2>
                         </div>
                     </div>
                 </div>
@@ -57,8 +51,8 @@ const Course = (props) => {
                     {courses.map((cource, i) => (
                         <div className="col-lg-4 col-md-6 custom-grid col-12" key={i}>
                             <div className="courses-item">
-                                <div className="course-icon">
-                                    <span><img src={cource.cIcon} alt="" /></span>
+                                <div className="course-icon"> 
+                                       <span><i className={cource.cIcon}/></span>
                                 </div>
                                 <div className="course-text">
                                     <h2>{cource.heading}</h2>

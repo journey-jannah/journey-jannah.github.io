@@ -17,6 +17,21 @@
     }
 }
 
+.hero {
+    margin-bottom: 90px !important;
+}
+
+.slide  {
+    box-sizing: content-box;
+} 
+
+.hero-slider-alt  {
+    box-sizing: content-box;
+    margin: 0 auto;
+    height: 1024px;
+    width: 576px;
+    padding: 10em;
+}
 .hero .slide {
     height: 100vh;
     position: relative;
@@ -46,8 +61,10 @@
 .hero .slide .row {
     display: table-cell;
     vertical-align: middle;
+  
 }
 
+/* button color button*/
 .hero .slick-prev,
 .hero .slick-next {
     background: #F9A882;
@@ -72,7 +89,22 @@
 
 .hero .slick-prev:hover,
 .hero .slick-next:hover {
-    background-color: #F7797D;
+    background: #F9A882;
+    background: -webkit-linear-gradient(left, #FBD786, #F7797D);
+    background: -moz-linear-gradient(left, #FBD786, #F7797D);
+    background: -o-linear-gradient(left, #FBD786, #F7797D);
+    background: -ms-linear-gradient(left, #FBD786, #F7797D);
+    background: -webkit-gradient(linear, left top, right top, from(#FBD786), to(#F7797D));
+    background: linear-gradient(to left, #FBD786, #F7797D);
+    width: 55px;
+    height: 55px;
+    z-index: 10;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 @media (max-width: 991px) {
@@ -109,13 +141,14 @@
 
 .hero:hover .slick-next {
     right: 25px;
+    opacity: 1;
 }
 
 .hero .slick-dots {
     bottom: 30px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 100px) {
     .hero .slick-dots {
         display: none !important;
     }
@@ -126,7 +159,7 @@
 }
 
 .hero .slick-dots button {
-    background-color: #00CDD7;
+    background-color: #FF7373;
     width: 14px;
     height: 14px;
     border: 2px solid #fff;
@@ -327,7 +360,7 @@
 
 .hero-style-1 .slide:before {
     content: "";
-    background-color: rgba(255, 161, 120, 0.7);
+    background-color: rgba(255, 161, 120, 0);
     width: 100%; 
     height: 100%;
     position: absolute;

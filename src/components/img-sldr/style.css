@@ -1,0 +1,132 @@
+.hero-style-1 .slide-caption {
+    text-align: center;
+}
+
+.hero-style-1 .slide-caption h2 {
+    color: #fff;
+}
+
+.hero-style-1 .slide-caption .btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero-style-1 .slide-caption>div.slide-top span {
+    background: rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    color: #fff;
+}
+
+@media(min-width:767px) {
+    .hero-style-1 .slide-caption {
+        padding-top: 50px;
+    }
+}
+
+
+.slide.s1{
+    background: url("../../images/robot-covid/img-1.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s2{
+    background: url("../../images/robot-covid/img-2.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s4{
+    background: url("../../images/robot-covid/img-4.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s5{
+    background: url("../../images/robot-covid/img-5.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s6{
+    background: url("../../images/robot-covid/img-6.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s7{
+    background: url("../../images/robot-covid/img-7.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s8{
+    background: url("../../images/robot-covid/img-8.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s9{
+    background: url("../../images/robot-covid/img-9.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s10{
+    background: url("../../images/robot-covid/img-10.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s11{
+    background: url("../../images/robot-covid/img-11.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s12{
+    background: url("../../images/robot-covid/img-12.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s13{
+    background: url("../../images/robot-covid/img-13.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s14{
+    background: url("../../images/robot-covid/img-14.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s15{
+    background: url("../../images/robot-covid/img-15.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s16{
+    background: url("../../images/robot-covid/img-16.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s17{
+    background: url("../../images/robot-covid/img-17.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s18{
+    background: url("../../images/robot-covid/img-18.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s19{
+    background: url("../../images/robot-covid/img-19.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s20{
+    background: url("../../images/robot-covid/img-20.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s21{
+    background: url("../../images/robot-covid/img-21.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}
+
+.slide.s22{
+    background: url("../../images/robot-covid/img-22.jpg") center center/cover no-repeat local;
+    border-radius: 20px;
+}

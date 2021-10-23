@@ -3,7 +3,7 @@
 ===============================*/
 
 .courses-area {
-    background: #FFF1EC;
+    background: #ffffff;
     padding: 100px 0 50px;
 }
 
@@ -11,7 +11,7 @@
     font-size: 30px;
     margin-bottom: 15px;
     font-weight: 600;
-    font-family: 'Now';
+    font-family: 'DM Sans';
 }
 
 .course-icon {
@@ -33,7 +33,7 @@
 
 .support-area-3,
 .wpo-ne-footer-2 {
-    background: #FFF1EC;
+    background: #ffffff;
 }
 
 .wpo-ne-footer-2 .wpo-site-footer {

@@ -20,8 +20,7 @@ const HeaderTopbar2 = () => {
                             <ul>
                                 <li><Link to="/home2"><i className="ti-facebook"></i></Link></li>
                                 <li><Link to="/home2"><i className="ti-twitter-alt"></i></Link></li>
-                                <li><Link to="/home2"><i className="ti-instagram"></i></Link></li>
-                                <li><Link to="/home2"><i className="ti-google"></i></Link></li>
+                                <li><Link to="/home2"><i className="fa-fa-instagram"></i></Link></li>
                                 <li><Link className="theme-btn-s2" to="/donate">Make Donation </Link></li>
                             </ul>
                         </div>
