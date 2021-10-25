@@ -63,8 +63,8 @@ const Footer = (props) =>{
                                 <p>Have questions? Feel free to contact us!</p>
                                 <div className="contact-ft">
                                     <ul>
-                                        <li><i className="ti-mobile"></i><Link to="//tel:6177521648"> (617) 752-1648</Link></li>
-                                        <li><i className="fa fa-envelope"></i><Link to="//mailto:info@myj2j.org"> info@myj2j.org</Link></li>
+                                        <li><i className="ti-mobile"></i><Link className = "link-alt" to="//tel:6177521648"> (617) 752-1648</Link></li>
+                                        <li><i className="fa fa-envelope"></i><Link className = "link-alt" to="//mailto:info@myj2j.org"> info@myj2j.org</Link></li>
                                     </ul>
                                 </div>
                             </div>
