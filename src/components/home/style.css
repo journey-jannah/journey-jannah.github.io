@@ -18,7 +18,7 @@
 }
 
 .hero {
-    margin-bottom: 90px !important;
+    margin-bottom: 3em !important;
 }
 
 .slide  {
@@ -628,7 +628,7 @@
 @media screen and (min-width: 992px) {
     .hero-style-2 .slide-caption {
         margin-top: 0;
-        padding-bottom: 60px;
+        padding: 60px;
     }
 }
 
@@ -642,8 +642,6 @@
 .hero-style-4 .slider-pic,
 .hero-style-5 .slider-pic {
     position: absolute;
-    bottom: -15%;
-    right: -110%;
     z-index: -1;
 }
 

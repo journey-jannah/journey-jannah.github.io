@@ -15,6 +15,25 @@
     padding-top: 100px;
 }
 
+.link-hide {
+    color: #444444;
+}
+
+.ti-id-badge {
+    font-size: 1.3rem;
+    background: -webkit-linear-gradient(#F77B7D, #F77B7D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ti-mobile {
+    font-size: 1.3rem;
+    background: -webkit-linear-gradient(#F77B7D, #F77B7D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 * {
     text-shadow:1px 1px 1px rgba(0,0,0,0.004) !important;
 }
@@ -191,7 +210,7 @@
 
 .wpo-site-footer .about-widget ul a:hover,
 .wpo-site-footer-2 .about-widget ul a:hover {
-    background: -webkit-linear-gradient(#F77B7D, #FFBE7C);
+    background: -webkit-linear-gradient(#F77B7D, #F77B7D);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

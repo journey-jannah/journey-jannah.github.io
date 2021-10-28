@@ -16,9 +16,8 @@ const AboutPage =() => {
             <Navbar/>
             <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
             <About aboutImg={abimg}/>
-            <ImgSlider/>
             <Course/>
-    
+            <ImgSlider/>
             <Footer footerClass={'wpo-ne-footer-2'}/>
             <Scrollbar/>
         </Fragment>
