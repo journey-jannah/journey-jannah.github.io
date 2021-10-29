@@ -41,20 +41,6 @@ const Support = (props) => {
                                 </div>
                                 <div className="col-lg-4 col-sm-4 custom-grid">
                                     <div className="progress-wrap">
-                                        <div className="progress s2">
-                                            <span className="progress-left">
-                                                <span className="progress-bar"></span>
-                                            </span>
-                                            <span className="progress-right">
-                                                <span className="progress-bar"></span>
-                                            </span>
-                                            <div className="progress-value">50%</div>
-                                        </div>
-                                        <span>Programs</span>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-sm-4 custom-grid">
-                                    <div className="progress-wrap">
                                         <div className="progress s3">
                                             <span className="progress-left">
                                                 <span className="progress-bar"></span>
@@ -65,6 +51,20 @@ const Support = (props) => {
                                             <div className="progress-value">30%</div>
                                         </div>
                                         <span>Subsidization</span>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-sm-4 custom-grid">
+                                    <div className="progress-wrap">
+                                        <div className="progress s2">
+                                            <span className="progress-left">
+                                                <span className="progress-bar"></span>
+                                            </span>
+                                            <span className="progress-right">
+                                                <span className="progress-bar"></span>
+                                            </span>
+                                            <div className="progress-value">50%</div>
+                                        </div>
+                                        <span>Programs</span>
                                     </div>
                                 </div>
                             </div>

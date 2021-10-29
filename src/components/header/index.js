@@ -36,17 +36,8 @@ const Header = () => {
                                             <li><Link onClick={ClickHandler} to="/weekly-quran" title="">Weekly Quran Class</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link onClick={ClickHandler} to="/event" title="">Events</Link>
-                                    </li>
-                                    <li><Link onClick={ClickHandler} to="/shop" title="">Shop</Link>
-                                        <ul>
-                                            <li><Link onClick={ClickHandler} to="/shop" title="">Items</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/donate" title="">Donate</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li><Link onClick={ClickHandler} to="/youth">Youth</Link>
-
-                                    </li>
+                                    <li><Link onClick={ClickHandler} to="/youth" title="">Youth</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/donate" title="">Donate</Link></li>
                                     <li><Link onClick={ClickHandler} to="/contact" title="">Contact</Link></li>
                                 </ul>
                             </nav>

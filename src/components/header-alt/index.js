@@ -28,25 +28,16 @@ const Header2 = () => {
                         </div>
                         <div className="col-lg-8 d-lg-block d-none">
                             <nav>
-                            <ul>
-                                    <li><Link onClick={ClickHandler} className="active" to="/home" title="">Home</Link></li>
+                                <ul>
+                                    <li><Link onClick={ClickHandler} to="/home" title="">Home</Link></li>
                                     <li><Link onClick={ClickHandler} to="/about" title="">About</Link></li>
                                     <li><Link onClick={ClickHandler} to="/classes" title="">Classes</Link>
                                         <ul>
                                             <li><Link onClick={ClickHandler} to="/weekly-quran" title="">Weekly Quran Class</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link onClick={ClickHandler} to="/event" title="">Events</Link>
-                                    </li>
-                                    <li><Link onClick={ClickHandler} to="/shop" title="">Shop</Link>
-                                        <ul>
-                                            <li><Link onClick={ClickHandler} to="/shop" title="">Items</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/donate" title="">Donate</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li><Link onClick={ClickHandler} to="/youth">Youth</Link>
-
-                                    </li>
+                                    <li><Link onClick={ClickHandler} to="/youth" title="">Youth</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/donate" title="">Donate</Link></li>
                                     <li><Link onClick={ClickHandler} to="/contact" title="">Contact</Link></li>
                                 </ul>
                             </nav>

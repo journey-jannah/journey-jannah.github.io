@@ -63,8 +63,8 @@ const Footer = (props) =>{
                                 <p>Have questions? Feel free to contact us!</p>
                                 <div className="contact-ft">
                                     <ul>
-                                        <li><i className="ti-mobile"></i><Link className = "link-hide" to="//tel:6177521648"> (617) 752-1648</Link></li>
-                                        <li><i className="ti-id-badge"></i><Link className = "link-hide" to="//mailto:info@myj2j.org"> info@myj2j.org</Link></li>
+                                        <li><i className="ti-mobile"></i><a className = "link-hide" href="tel:6177521648"> (617) 752-1648</a></li>
+                                        <li><i className="ti-id-badge"></i><a className = "link-hide" href="mailto:info@myj2j.org"> info@myj2j.org</a></li>
                                     </ul>
                                 </div>
                             </div>

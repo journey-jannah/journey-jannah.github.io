@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom'
 import service1 from '../../images/service/img-3.png'
 import service2 from '../../images/service/img-4.png'
 import service3 from '../../images/service/img-5.png'
-import service4 from '../../images/service/img-6.png'
-import service5 from '../../images/service/img-7.png'
-import service6 from '../../images/service/img-8.png'
 import './style.css'
 
 const Service2 = (props) => {
@@ -30,21 +27,6 @@ const Service2 = (props) => {
            title:"Mosque Development",
            link:"/weekly-quran"
         },
-        {
-           simg:service4,
-           title:"Matrimonial",
-           link:"/weekly-quran"
-        },
-        {
-           simg:service5,
-           title:"Funerals",
-           link:"/weekly-quran"
-        },
-        {
-           simg:service6,
-           title:"Help Poor",
-           link:"/weekly-quran"
-        },
     ]
 
     return(
@@ -53,8 +35,8 @@ const Service2 = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>What We Offer</span>
-                            <h2>Our Populer Services</h2>
+                            <span>Offerings</span>
+                            <h2>Our Most Popular Classes</h2>
                         </div>
                     </div>
                 </div>
