@@ -39,7 +39,7 @@ const Service = (props) => {
                                     </ul>
                                 </div>
                                 <div className="btns">
-                                    <a href="/weekly-quran" className="theme-btn-s3">See More</a>
+                                    <a href="/classes" className="theme-btn-s3">See More</a>
                                 </div>
                             </div>
                         </div>

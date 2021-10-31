@@ -15,7 +15,7 @@ class Hero2 extends Component {
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2500,
-            fade: true
+            fade: false
         };
         return (
             <section className="hero hero-style-1">

@@ -8,20 +8,24 @@ class Hero2 extends Component {
     render() {
         var settings = {
             dots: true,
+            infinite: true,
             arrows: true,
             speed: 1200,
             slidesToShow: 2,
+            touchMove: true,
             slidesToScroll: 1,
             swipeToSlide: true,
             autoplay: true,
             autoplaySpeed: 2500,
-            fade: true
+            adaptiveHeight: true,
+            centerPadding: "50px",
+            fade: false
         };
         return (
             <section className="hero hero-style-1">
                 <div className="hero-slider-alt">
                     <Slider {...settings}>
-                          <div className="slide s1">
+                          <div className="slide-s1">
                               <div className="container">
                                  <div className="row">
                                  </div>

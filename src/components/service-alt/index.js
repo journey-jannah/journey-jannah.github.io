@@ -14,18 +14,18 @@ const Service2 = (props) => {
     const serviceWrap = [
         {
            simg:service1,
-           title:"Quran Memorization",
+           title:"Thursday Quran Class",
            link:"/weekly-quran"
         },
         {
            simg:service2,
-           title:"Special Child Care",
-           link:"/weekly-quran"
+           title:"Youth Group",
+           link:"/youth"
         },
         {
            simg:service3,
-           title:"Mosque Development",
-           link:"/weekly-quran"
+           title:"Limited Time Events",
+           link:"/specials-events"
         },
     ]
 

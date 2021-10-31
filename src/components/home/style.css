@@ -17,10 +17,6 @@
     }
 }
 
-.hero {
-    margin-bottom: 3em !important;
-}
-
 .slide  {
     box-sizing: content-box;
 } 
@@ -29,14 +25,13 @@
     box-sizing: content-box;
     margin: 0 auto;
     height: 1024px;
-    width: 576px;
+    width: 768px;
     padding: 10em;
 }
 .hero .slide {
-    height: 100vh;
+    height: 10vh;
     position: relative;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 @media (max-width: 767px) {
@@ -111,7 +106,7 @@
 
     .hero .slick-prev,
     .hero .slick-next {
-        display: none !important;
+        display: none ;
     }
 }
 
@@ -343,12 +338,14 @@
 /************************************************
 0.5 hero-style-1
 **************************************************/
+
+
 .hero-style-1,
 .hero-style-2,
 .hero-style-3,
 .hero-style-4,
 .hero-style-5 {
-    height: 900px;
+    height: 1024px;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -361,8 +358,8 @@
 .hero-style-1 .slide:before {
     content: "";
     background-color: rgba(255, 161, 120, 0);
-    width: 100%; 
-    height: 100%;
+    width: 75%; 
+    height: 75%;
     position: absolute;
     left: 0;
     top: 0;
@@ -378,7 +375,7 @@
 }
 
 .hero-style-1 .slide {
-    height: 900px;
+    height: 1024px;
 }
 
 .hero-style-2,
@@ -453,12 +450,8 @@
         height: 500px;
     }
     .hero-style-1 .slide-caption {
-        padding-top: 60px;
+        padding-top: 30px;
     }
-
-   
-
-
 
     .hero-style-3,
     .hero-style-4,

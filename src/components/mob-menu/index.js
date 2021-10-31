@@ -19,7 +19,7 @@ const menus = [
 {
     id: 3,
         title: 'Classes',
-        link: '/service',
+        link: '/classes',
         submenu: [
             {
                 id: 31,
@@ -29,36 +29,18 @@ const menus = [
         ]
     },
 {
-    id: 4,
-        title: 'Events',
-        link: '/event',
-    },
-    {
-        id: 7,
-        title: 'Shop',
-        link: '/shop',
-        submenu: [
-            {
-                id: 71,
-                title: 'Items',
-                link: '/shop'
-            },
-            {
-                id: 79,
-                title: 'Donate',
-                link: '/donate'
-            },
-            
-        ]
+        id: 4,
+        title: 'Youth',
+        link: '/youth'
     },
 
     {
         id: 5,
-        title: 'Youth',
-        link: '/blog',
+        title: 'Donate',
+        link: '/donate',
     },
     {
-        id: 88,
+        id: 6,
         title: 'Contact',
         link: '/contact',
     }
