@@ -1,55 +1,60 @@
-import React, { useState, useEffect } from "react";
-import "./style.css";
-import hdr from '../../images/checkout/img-2.svg'
+import React from 'react';
+import { loadStripe } from '@stripe/stripe-js';
 
-const ProductDisplay = () => (
-  <section>
-    <div className="product">
-      <img
-        src={hdr}
-        alt="Donate to J2J!"
-      />
-      <div className="description">
-      <h3>Donate to Us!</h3>
-      <h5>$5.00</h5>
-      </div>
-    </div>
-    <form action="/create-checkout-session" method="POST">
-      <button type="submit">
-        Checkout
-      </button>
-    </form>
-  </section>
+// Make sure to call `loadStripe` outside of a component’s render to avoid
+// recreating the `Stripe` object on every render.
+const stripePromise = loadStripe(
+  process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
 );
 
-const Message = ({ message }) => (
-  <section>
-    <p>{message}</p>
-  </section>
-);
-
-export default function App() {
-  const [message, setMessage] = useState("");
-
-  useEffect(() => {
+export default function PreviewPage() {
+  React.useEffect(() => {
     // Check to see if this is a redirect back from Checkout
     const query = new URLSearchParams(window.location.search);
 
-    if (query.get("success")) {
-      setMessage("Order placed! You will receive an email confirmation.");
+    if (query.get('success')) {
+      console.log('Order placed! You will receive an email confirmation.');
     }
 
-    if (query.get("canceled")) {
-      setMessage(
-        "Order canceled -- continue to shop around and checkout when you're ready."
-      );
+    if (query.get('canceled')) {
+      console.log('Order canceled -- continue to shop around and checkout when you’re ready.');
     }
   }, []);
 
-  return message ? (
-    <Message message={message} />
-  ) : (
-    <ProductDisplay />
+  return (
+    <form action="/api/checkout_sessions" method="POST">
+      <section>
+        <button type="submit" role="link">
+          Checkout
+        </button>
+      </section>
+      <style jsx>
+        {`
+          section {
+            background: #ffffff;
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 112px;
+            border-radius: 6px;
+            justify-content: space-between;
+          }
+          button {
+            height: 36px;
+            background: #556cd6;
+            border-radius: 4px;
+            color: white;
+            border: 0;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+          }
+          button:hover {
+            opacity: 0.8;
+          }
+        `}
+      </style>
+    </form>
   );
 }
-

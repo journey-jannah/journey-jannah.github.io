@@ -11,14 +11,12 @@ class Hero2 extends Component {
             infinite: true,
             arrows: true,
             speed: 1200,
-            slidesToShow: 2,
+            slidesToShow: 1,
             touchMove: true,
             slidesToScroll: 1,
             swipeToSlide: true,
             autoplay: true,
             autoplaySpeed: 2500,
-            adaptiveHeight: true,
-            centerPadding: "50px",
             fade: false
         };
         return (
@@ -134,18 +132,6 @@ class Hero2 extends Component {
                             </div>
                         </div>
                         <div className="slide s20">
-                            <div className="container">
-                                <div className="row">
-                                </div>
-                            </div>
-                        </div>
-                        <div className="slide s21">
-                            <div className="container">
-                                <div className="row">
-                                </div>
-                            </div>
-                        </div>
-                        <div className="slide s22">
                             <div className="container">
                                 <div className="row">
                                 </div>

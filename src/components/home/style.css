@@ -24,7 +24,7 @@
 .hero-slider-alt  {
     box-sizing: content-box;
     margin: 0 auto;
-    height: 1024px;
+    height: 64em;
     width: 768px;
     padding: 10em;
 }
@@ -345,10 +345,10 @@
 .hero-style-3,
 .hero-style-4,
 .hero-style-5 {
-    height: 1024px;
+    height: 64em;
     position: relative;
     z-index: 1;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .hero-style-1 .slide {
@@ -375,7 +375,7 @@
 }
 
 .hero-style-1 .slide {
-    height: 1024px;
+    height: 64em;
 }
 
 .hero-style-2,
@@ -421,7 +421,7 @@
         height: 600px;
     }
     .hero-style-1 .slide-caption {
-        padding-top: 70px;
+        padding-top: 2em;
     }
 
 }

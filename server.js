@@ -1,4 +1,4 @@
-const stripe = require('stripe')('sk_test_51HSBYYELUcUGBgkRwsbKs2klhmUDDlXL6wDTq7uHB2eLebmojt7dJ1PQpcw2yVZ3zKI19sXbaTC4cX3VaS4m83lE00TBjxV7DH');
+/*const stripe = require('stripe')('sk_test_51HSBYYELUcUGBgkRwsbKs2klhmUDDlXL6wDTq7uHB2eLebmojt7dJ1PQpcw2yVZ3zKI19sXbaTC4cX3VaS4m83lE00TBjxV7DH');
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
@@ -25,4 +25,4 @@ app.post('/create-checkout-session', async (req, res) => {
   res.redirect(303, session.url)
 });
 
-app.listen(4242, () => console.log('Running on port 4242'));
+app.listen(4242, () => console.log('Running on port 4242'));*/
