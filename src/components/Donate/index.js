@@ -20,7 +20,7 @@ const Donate = (props) => {
                         <div className="wpo-donate-header">
                             <h2>Make a Donation</h2>
                         </div>
-                        <form onSubmit={SubmitHandler} action="#">
+                        <form onSubmit={SubmitHandler} action="https://send.pageclip.co/W9lqCMtrW3zDDZUoLfA8guAKUXTcRM23/J2J">
                             <div className="wpo-donations-amount">
                                 <h2>Your Donation</h2>
                                 <input type="text" className="form-control" name="text" id="text" placeholder="Enter Donation Amount"/>

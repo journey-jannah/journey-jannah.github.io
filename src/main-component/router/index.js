@@ -50,6 +50,7 @@ const AllRoute = () => {
             <Route path='/login' component={LoginPage}/>
             <Route path='/signup' component={SignUpPage}/>
             <Route path='/forgot-password' component={ForgotPassword}/>
+            <Route component={ErrorPage}/>
           </Switch>
       </Router>
       

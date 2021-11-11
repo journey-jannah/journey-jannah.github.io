@@ -74,7 +74,7 @@ class ContactForm extends Component {
             error } = this.state;
 
         return(
-            <form onSubmit={this.subimtHandler} className="form">
+            <form onSubmit={this.subimtHandler} className="form" action="https://send.pageclip.co/W9lqCMtrW3zDDZUoLfA8guAKUXTcRM23/J2J" method="post">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="form-field">
@@ -101,13 +101,14 @@ class ContactForm extends Component {
                     </div>
                     <div className="col-lg-12">
                         <div className="form-submit">
-                            <button type="submit" className="theme-btn">Send Message</button>
+                            <button type="submit" className="pageclip-form__submit"  className="theme-btn">Send Message</button>
                         </div>
                     </div>
                 </div>
             </form>
+            
         )
     }
 
 }
-export default  ContactForm;
+export default ContactForm;
