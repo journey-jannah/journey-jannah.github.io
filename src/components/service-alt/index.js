@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import service1 from '../../images/service/img-3.png'
-import service2 from '../../images/service/img-4.png'
-import service3 from '../../images/service/img-5.png'
+import service1 from '../../images/service/img-3.svg'
+import service2 from '../../images/service/img-4.svg'
+import service3 from '../../images/service/img-5.svg'
 import './style.css'
 
 const Service2 = (props) => {

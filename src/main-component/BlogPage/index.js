@@ -10,7 +10,7 @@ const BlogPage =() => {
     return(
         <Fragment>
             <Navbar/>
-            <PageTitle pageTitle={'Latest News'} pagesub={'Blog'}/> 
+            <PageTitle pageTitle={'Latest News'} pagesub={'Youth'}/> 
             <BlogList/>
             <Footer footerClass={'wpo-ne-footer-2'}/>
             <Scrollbar/>
