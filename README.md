@@ -25,6 +25,7 @@ This process varies a bit based on whether you're using Mac or Windows - I'm mos
 
 - Make sure you've sent a pull request for the most recent source code when a change is approved to the 'source' branch
 - NEVER push to 'master' or 'stable' they should *only* be pushed via CLI by me
+- Use `npm run deploy` for deploying to github pages
 
 ## Prereqs before you get to coding
 
