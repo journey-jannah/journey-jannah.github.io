@@ -10,7 +10,7 @@ const ServiceSinglePage =() => {
     return(
         <Fragment>
             <Navbar/>
-            <PageTitle pageTitle={'Service'} pagesub={'Service'}/> 
+            <PageTitle pageTitle={'Weekly Classes'} pagesub={'Weekly Quran'}/> 
             <ServiceSingle/>
             <Footer footerClass={'wpo-ne-footer-2'}/>
             <Scrollbar/>

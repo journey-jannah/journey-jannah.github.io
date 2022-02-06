@@ -6,10 +6,11 @@
 /*--------------------------------------
   service single sidebar
 ----------------------------------------*/
-.service-sidebar {
+
     /*** service-list-widget ***/
     /*** contact-widget ***/
-}
+
+
 
 @media (max-width: 991px) {
     .service-sidebar {
@@ -24,12 +25,18 @@
     }
 }
 
+.ul-alt {
+    margin-top: 20px;
+    list-style-type: disc;
+}
+
 .service-sidebar>.widget+.widget {
     margin-top: 60px;
 }
 
 .service-sidebar .service-list-widget {
-    background-color: #f2fcfd;
+    background-color: #FFF1EC;
+    border-radius: 25px;
     padding: 55px 30px;
 }
 
@@ -43,7 +50,7 @@
 
 .service-sidebar .service-list-widget h3:before {
     content: "";
-    background-color: #00afd5;
+    background-color: #FB9C7D;
     width: 80px;
     height: 4px;
     border-radius: 10px;
@@ -54,7 +61,7 @@
 
 .service-sidebar .service-list-widget h3:after {
     content: "";
-    background-color: #00afd5;
+    background-color: #FB9C7D;
     width: 15px;
     height: 4px;
     border-radius: 10px;
@@ -93,14 +100,16 @@
 
 .service-sidebar .service-list-widget a:hover,
 .service-sidebar .service-list-widget .current a {
-    color: #00afd5;
+    color: #FB9C7D;
 }
 
 .service-sidebar .contact-widget {
-    background: url(../../images/contact.jpg) no-repeat center center / cover;
+    background: url(../../images/contact.svg) no-repeat center center / cover;
+    border-radius: 25px;
     padding: 55px 35px;
     position: relative;
     z-index: 1;
+    margin-top: 50px;
 }
 
 .service-sidebar .contact-widget:before {
@@ -111,13 +120,6 @@
     width: 100%;
     z-index: -1;
     content: "";
-    background: #00c6d1;
-    background: -webkit-linear-gradient(to left, #F7797D, #FFBF7C);
-    background: -moz-linear-gradient(to left, #F7797D, #FFBF7C);
-    background: -o-linear-gradient(to left, #F7797D, #FFBF7C);
-    background: -ms-linear-gradient(to left, #F7797D, #FFBF7C);
-    background: -webkit-gradient(linear, left top, right top, from(#F7797D), to(#FFBF7C));
-    background: linear-gradient(to left, #F7797D, #FFBF7C);
     opacity: .9;
 }
 
@@ -130,7 +132,7 @@
 .service-sidebar .contact-widget h2 {
     font-size: 30px;
     color: #fff;
-    margin: 0.7em 0 0;
+    margin: 3em 0 0;
 }
 
 
@@ -228,12 +230,12 @@
 
 .pre-btn:hover,
 .nex-btn:hover {
-    background: #effefe;
+    background: #FFF0EC;
 }
 
 .pre-btn:hover a,
 .nex-btn:hover a {
-    color: #089fa2;
+    color: #FB9C7D;
 }
 
 .service-single-tb span {

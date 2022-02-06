@@ -34,7 +34,7 @@ const Contactpage = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div className="info-item">
-                                        <h2><a className="link-alt" href = "//mailto:info@myj2j.org">info@myj2j.org</a></h2>
+                                        <h2><a className="link-alt" href = "mailto:info@myj2j.org">info@myj2j.org</a></h2>
                                         <div className="info-wrap">
                                             <div className="info-icon-2">
                                                 <i className="fi flaticon-envelope"></i>
@@ -47,7 +47,7 @@ const Contactpage = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div className="info-item">
-                                        <h2><a className="link-alt" href = "//tel:6177521648">(617) 752-1648</a></h2>
+                                        <h2><a className="link-alt" href = "tel:6177521648">(617) 752-1648</a></h2>
                                         <div className="info-wrap">
                                             <div className="info-icon-3">
                                                 <i className="ti-headphone-alt"></i>

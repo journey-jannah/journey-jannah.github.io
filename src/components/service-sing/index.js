@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import service1 from '../../images/service-details.jpg'
-import service2 from '../../images/service-detail2.jpg'
+import service1 from '../../images/service-details.svg'
+import service2 from '../../images/service-detail2.svg'
 import './style.css'
 
 const ServiceSingle = (props) => {
@@ -21,20 +21,25 @@ const ServiceSingle = (props) => {
                             <div className="service-single-img">
                                 <img src={service1} alt=""/>
                             </div>
-                            <h2>The Varaus Hotel & Resort</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
-                            <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour,sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+                            {/*<h2><b>Weekly Quran Classes</b></h2>*/}
+                            <p>Join us as we explore every Juz of the Quran, in-depth, and important lessons. Some of our current topics include Hadith Bukhari, Tadabbur Al-Quran, and stories of the sahaba. We also open up our class to group discussion and discusion of current situation and how to apply those lessons in a contemporary context. We also use our community as a catalyst for other community events, including youth get-togethers, special guest speakers, and family events!</p>
+                            <p>In order to teach effectively, we have employed a series of technologies & services that allow our participants to learn effectively as well as safely. During the COVID-19 pandemic we shifted our class online on Zoom, and we employ WhatsApp groups and email newsletters in order to maximize the outreach to our community. We're also working on building out an app for a more transparent spread of ideals.</p>
                             <div className="service-single-tb">
                                 <div className="service-single-inner">
                                     <span><img src={service2} alt=""/></span>
                                     <div className="service-single-tb-text">
-                                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
-                                        <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
+                                        <p>We keep recordings of some of our most popular classes, which is made available to others, right here on our website!</p>
+                                        <p>Any recordings provided to the group are provided here along with the date they were recorded.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="service-single-tb-content">
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+                            <div className="ul-alt">
+                                <h3><b>Some of what you'll see:</b></h3>
+                                <ul className="ul-alt">
+                                    <li><b>Community</b> - our community platforms emphasize helping each other. Participants often share helpful advice to others or help those in need in the area by organizing group events.</li>
+                                    <br></br>
+                                    <li><b>Modern Design</b> - our focus is to help you apply Islamic values in the real world - our discussions often include exactly how to do that.</li>
+                                </ul>
                             </div>
                         </div>
                         <div className="prv-nx">
@@ -47,19 +52,21 @@ const ServiceSingle = (props) => {
                             <div className="widget service-list-widget">
                                 <h3>All Services</h3>
                                 <ul>
-                                    <li className="current"><Link to="/weekly-quran">Special Child Care</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/weekly-quran">Mosque Development</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/weekly-quran">Matrimonial</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/weekly-quran">Funerals</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/weekly-quran">Help Poor</Link></li>
+                                    <li className="current"><Link to="/weekly-quran">Weekly Classes</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/youth">Youth Group</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/weekly-quran">Special Events</Link></li>
                                 </ul>
                             </div>
-                            <div className="widget contact-widget">
+                            <a href="https://whatsapp.com">
+                                <div className="widget contact-widget" >
+                                
                                 <div>
-                                    <h4>Request a Call Back</h4>
-                                    <h2>(523) 456-789</h2>
+                                    <h4>                   </h4>
+                                    <h2>              </h2>
                                 </div>
-                            </div>
+                                
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>

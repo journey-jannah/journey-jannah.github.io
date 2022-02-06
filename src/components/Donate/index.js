@@ -1,16 +1,10 @@
 import React from 'react'
+import stp_gif from '../../images/donate/stripe-donate.gif'
 
-import pmt1 from '../../images/checkout/img-1.png'
-import pmt2 from '../../images/checkout/img-2.png'
-import pmt3 from '../../images/checkout/img-3.png'
-import pmt4 from '../../images/checkout/img-4.png'
 import './style.css'
 
 const Donate = (props) => {
 
-    const SubmitHandler = (e) =>{
-        e.preventDefault()
-    }
 
     return(
         <div className="wpo-donation-page-area section-padding">
@@ -19,8 +13,9 @@ const Donate = (props) => {
                     <div className="col-lg-8 offset-lg-2">
                         <div className="wpo-donate-header">
                             <h2>Make a Donation</h2>
+                            <a href="https://buy.stripe.com/bIY9BEfLneAz9gY5kq" ><img src={stp_gif} alt="Stripe Payment gif" /></a>
                         </div>
-                        <form onSubmit={SubmitHandler} action="https://send.pageclip.co/W9lqCMtrW3zDDZUoLfA8guAKUXTcRM23/J2J">
+                        {/*<form onSubmit={SubmitHandler} action="https://send.pageclip.co/W9lqCMtrW3zDDZUoLfA8guAKUXTcRM23/J2J">
                             <div className="wpo-donations-amount">
                                 <h2>Your Donation</h2>
                                 <input type="text" className="form-control" name="text" id="text" placeholder="Enter Donation Amount"/>
@@ -107,7 +102,7 @@ const Donate = (props) => {
                             <div className="submit-area">
                                 <button type="submit" className="theme-btn submit-btn">Donate Now</button>
                             </div>
-                        </form> 
+    </form>*/}
                     </div>
                 </div>
             </div>
