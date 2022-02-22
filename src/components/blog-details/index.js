@@ -29,9 +29,9 @@ const BlogSingle = () => {
                                     <li><Link to="/blog-details"><i className="ti-calendar"></i> Sep 25,2021</Link></li>
                                     <li><Link to="/blog-details"><i className="ti-heart"></i> 35</Link></li>
                                 </ul>
-                                <h2>The Importance of Marriage in Islam.</h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.</p>
+                                <h2>Why we decided to start a youth group.</h2>
+                                <p>It is commonly said that "the youth are our future," but it's less common to ask who's helping them grow and develop. That's where we come in. At out core, our mission has always been to help others speak up for themselves and with the youth group we plan to achieve that on an even greater scale.</p>
+                                <p>The guiding ideal behind this is really about </p>
                                 <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </blockquote>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.</p>
                                 <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.</p>

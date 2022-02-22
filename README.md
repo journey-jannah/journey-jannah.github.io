@@ -8,7 +8,7 @@
 ## General rules for compiling any new code
 
 - Make sure you've opened a pull request for any changes you make
-- NEVER push to 'master' or 'stable' those have different rules*only* be pushed via CLI by me
+- NEVER push to 'master' or 'stable' those have different rules *only* be pushed via CLI by me
 - Use `npm run deploy` for deploying to github pages
 
 ## If you're new to React/PWAs

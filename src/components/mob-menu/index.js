@@ -25,6 +25,16 @@ const menus = [
                 id: 31,
                 title: 'Weekly Quran Class',
                 link: '/weekly-quran'
+            },
+            {
+                id: 32,
+                title: 'Youth',
+                link: '/youth'
+            },
+            {
+                id: 33,
+                title: 'Special Events',
+                link: '/weekly-quran'
             }
         ]
     },

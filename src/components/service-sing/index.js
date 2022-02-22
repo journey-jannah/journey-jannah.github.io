@@ -39,6 +39,8 @@ const ServiceSingle = (props) => {
                                     <li><b>Community</b> - our community platforms emphasize helping each other. Participants often share helpful advice to others or help those in need in the area by organizing group events.</li>
                                     <br></br>
                                     <li><b>Modern Design</b> - our focus is to help you apply Islamic values in the real world - our discussions often include exactly how to do that.</li>
+                                    <br></br>
+                                    <li><b>Curiousity</b> - there is no discussion that's fully closed - we focus on making sure that you can follow curiosity and that it might one day become a passion.</li>
                                 </ul>
                             </div>
                         </div>
