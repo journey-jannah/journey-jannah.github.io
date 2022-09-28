@@ -76,7 +76,7 @@ const Footer = (props) =>{
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright">&copy; 2021 Journey to Jannah. All rights reserved.</p>
+                            <p className="copyright">&copy; 2022 Journey to Jannah. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

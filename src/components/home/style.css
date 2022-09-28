@@ -348,7 +348,7 @@
     height: 64em;
     position: relative;
     z-index: 1;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .hero-style-1 .slide {

@@ -1,12 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
-import ins1 from '../../images/recent-posts/img-1.jpg'
-import ins2 from '../../images/recent-posts/img-2.jpg'
-import ins3 from '../../images/recent-posts/img-3.jpg'
-import evnt from '../../images/blog/profile.png'
+import evnt from '../../images/blog/logo192.svg'
 
 
 import './style.css'
+// eslint-disable-next-line no-lone-blocks
+{/*import ins1 from '../../images/recent-posts/img-1.jpg'
+import ins2 from '../../images/recent-posts/img-2.jpg'
+import ins3 from '../../images/recent-posts/img-3.jpg'*/}
 
 const BlogSidebar = () => {
 
@@ -20,26 +20,26 @@ const BlogSidebar = () => {
                 <div className="widget profile-widget">
                     <div className="profile-img">
                         <img src={evnt} alt="" />
-                        <h2>Alexander Bartler</h2>
-                        <p>Hi! here is our blog. Read our post - and be with us</p>
+                        <h2>Journey to Jannah Youth</h2>
+                        <p>Stay updated on our journey as we focus on impacting our communities.</p>
                     </div>
                     <div className="pro-social">
                         <ul>
-                            <li><Link to="/blog-details"><i className="ti-facebook"></i></Link></li>
-                            <li><Link to="/blog-details"><i className="ti-twitter-alt"></i></Link></li>
-                            <li><Link to="/blog-details"><i className="ti-instagram"></i></Link></li>
-                            <li><Link to="/blog-details"><i className="ti-google"></i></Link></li>
+                            <li><a href = "http://twitter.com/JtoJYouthWing?s=20"><i className="ti-facebook"></i></a></li>
+                            <li><a href = "http://twitter.com/JtoJYouthWing?s=20"><i className="ti-twitter-alt"></i></a></li>
+                            <li><a href = "http://twitter.com/JtoJYouthWing?s=20"><i className="ti-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="widget search-widget">
                     <form onSubmit={SubmitHandler}>
                         <div>
-                            <input type="text" className="form-control" placeholder="Search Post.."/>
+                            <input type="text" className="form-control" placeholder="Search Youth.."/>
                             <button type="submit"><i className="ti-search"></i></button>
                         </div>
                     </form>
                 </div>
+                {/*
                 <div className="widget category-widget">
                     <h3>Categories</h3>
                     <ul>
@@ -50,7 +50,8 @@ const BlogSidebar = () => {
                         <li><Link to="/blog-details">Travelling <span>(6)</span></Link></li>
                         <li><Link to="/blog-details">Learning Quran <span>(2)</span></Link></li>
                     </ul>
-                </div>
+                </div>*/}
+                {/*
                 <div className="widget recent-post-widget">
                     <h3>Recent posts</h3>
                     <div className="posts">
@@ -82,8 +83,8 @@ const BlogSidebar = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="widget tag-widget">
+                </div>*/}
+                {/*<div className="widget tag-widget">
                     <h3>Tags</h3>
                     <ul>
                         <li><Link to="/blog-details">Salat</Link></li>
@@ -95,7 +96,7 @@ const BlogSidebar = () => {
                         <li><Link to="/blog-details">Hajj</Link></li>
                         <li><Link to="/blog-details">Health</Link></li>
                     </ul>
-                </div>
+                </div>*/}
             </div>
         </div>
      )

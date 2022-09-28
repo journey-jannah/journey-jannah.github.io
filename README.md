@@ -18,7 +18,7 @@ This process varies a bit based on whether you're using Mac or Windows - I'm mos
 1. Clone the 'source' branch to your local repository (google if you are confused or ask me) - easiest way to do this is via VSCode under 'Source Control'
 2. Go into your file mananger and locate the files of the repository you just cloned
 3. Go to 'src > components > about
-4. Copy the file path (will vary based on the file manager you are using, but looks something like this C:\Users\journey-jannah.github.io\src\components)
+4. Copy the file path (will vary based on the file manager you are using, but looks something like this `C:\Users\journey-jannah.github.io\src\components)`
 5. Open your CLI
 6. type `cd` and then the file path you just copied, then click 'Enter' on your keyboard
 7. `npm init react-app my-app`
