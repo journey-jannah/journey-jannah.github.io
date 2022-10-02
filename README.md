@@ -1,4 +1,11 @@
 
+# If you forgot how to deploy/push to prod
+
+>1. It is simple.
+>2. Just run `npm run deploy` for main production line
+>3. Run `firebase deploy` for developer/beta testing line
+>4. Remember to use source control too pls
+
 # Quick Start
 
 >1. Download the source code from the 'source' branch - make sure to create a react app when you do this
