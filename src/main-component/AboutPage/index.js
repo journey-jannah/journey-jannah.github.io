@@ -1,12 +1,13 @@
 import React, {Fragment} from 'react';
 import Navbar from '../../components/nav'
-import ImgSlider from '../../components/img-sldr'
+//import ImgSlider from '../../components/img-sldr'
 import PageTitle from '../../components/pg-title'
 import About from '../../components/about'
 import Course from '../../components/course'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import abimg from '../../images/about-3.svg'
+import Collage from '../../components/collage'
 
 
 
@@ -17,7 +18,7 @@ const AboutPage =() => {
             <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
             <About aboutImg={abimg}/>
             <Course/>
-            <ImgSlider/>
+            <Collage/>
             <Footer footerClass={'wpo-ne-footer-2'}/>
             <Scrollbar/>
         </Fragment>

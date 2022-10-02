@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from '../../logo.svg'
 import {Link}  from 'react-router-dom'
-import HeaderTopbar from '../header-tpbr'
 import MobileMenu from '../../components/mob-menu'
 import './style.css'
 
@@ -16,7 +15,6 @@ const Header = () => {
 
     return(	
         <div className="middle-header">
-            <HeaderTopbar/>
             <div className="header-style-3">
                 <div className="container">
                     <div className="header-content">

@@ -42,7 +42,7 @@
     "sass-loader": "^12.1.0",
     "simple-react-validator": "^1.5.0",
     "slick-carousel": "^1.8.1",
-    "stripe": "^8.184.0"
+    "stripe": "^8.222.0"
   },
   "scripts": {
     "start": "react-scripts start",
