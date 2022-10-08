@@ -1,0 +1,8 @@
+org/myj2j/twa/LauncherActivity.java
+ org.myj2j.twa.LauncherActivity
+org/myj2j/twa/BuildConfig.java
+ org.myj2j.twa.BuildConfig
+org/myj2j/twa/Application.java
+ org.myj2j.twa.Application
+org/myj2j/twa/DelegationService.java
+ org.myj2j.twa.DelegationService

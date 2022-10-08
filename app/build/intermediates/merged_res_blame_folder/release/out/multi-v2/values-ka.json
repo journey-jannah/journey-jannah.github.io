@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.myj2j.twa.app-mergeReleaseResources-6:/values-ka/values-ka.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Hamza\\.gradle\\caches\\transforms-3\\21d84949d471e161d7d44ca5077f5a4f\\transformed\\core-1.1.0\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "479",
+                        "endColumns": "100",
+                        "endOffsets": "575"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hamza\\.gradle\\caches\\transforms-3\\92ba39f2beb0153d1f0d3ff9d186f6f8\\transformed\\browser-1.4.0\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,161,264,374",
+                        "endColumns": "105,102,109,104",
+                        "endOffsets": "156,259,369,474"
+                    }
+                }
+            ]
+        }
+    ]
+}

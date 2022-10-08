@@ -1,0 +1,275 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\Hamza\.gradle\caches\transforms-3\841a3070c1db12b2be200ad1b644e9c9\transformed\androidbrowserhelper-2.4.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Hamza\.gradle\caches\transforms-3\92ba39f2beb0153d1f0d3ff9d186f6f8\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\21d84949d471e161d7d44ca5077f5a4f\transformed\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\badfc14817353b6065b9a3224afef766\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Hamza\.gradle\caches\transforms-3\1808fa60ef65dfd331c0d005c567d21e\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Hamza\.gradle\caches\transforms-3\fd027d76d41a861116a821e323b073ba\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+	package
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:1-174:12
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:22:11-69
+application
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:32:5-173:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\21d84949d471e161d7d44ca5077f5a4f\transformed\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\21d84949d471e161d7d44ca5077f5a4f\transformed\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\badfc14817353b6065b9a3224afef766\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\badfc14817353b6065b9a3224afef766\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\21d84949d471e161d7d44ca5077f5a4f\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:40:9-35
+	android:label
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:36:9-40
+	android:manageSpaceActivity
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:38:9-105
+	android:icon
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:35:9-43
+	android:allowBackup
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:41:9-68
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:33:9-35
+meta-data#asset_statements
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:43:9-45:58
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:45:13-55
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:44:13-44
+meta-data#web_manifest_url
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:48:13-50:58
+	android:value
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:50:17-55
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:49:17-48
+meta-data#twa_generator
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:53:9-55:52
+	android:value
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:54:13-41
+activity#com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:62:13-66:24
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:62:23-104
+meta-data#android.support.customtabs.trusted.MANAGE_SPACE_URL
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:63:13-65:53
+	android:value
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:65:17-50
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:64:17-83
+activity#org.myj2j.twa.LauncherActivity
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:69:9-138:20
+	android:label
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:71:13-49
+	android:exported
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:72:13-36
+	android:alwaysRetainTaskState
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:70:13-49
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:69:19-50
+meta-data#android.support.customtabs.trusted.DEFAULT_URL
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:73:13-74:53
+	android:value
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:74:17-50
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:73:24-85
+meta-data#android.support.customtabs.trusted.STATUS_BAR_COLOR
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:76:13-78:58
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:78:17-55
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:77:17-83
+meta-data#android.support.customtabs.trusted.NAVIGATION_BAR_COLOR
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:80:13-82:61
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:82:17-58
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:81:17-87
+meta-data#android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:84:13-86:65
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:86:17-62
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:85:17-92
+meta-data#androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:88:13-90:68
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:90:17-65
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:89:17-84
+meta-data#androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:92:13-94:72
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:94:17-69
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:93:17-89
+meta-data#android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:96:13-97:54
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:97:17-52
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:96:24-95
+meta-data#android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:99:13-100:60
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:100:17-58
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:99:24-104
+meta-data#android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:102:13-103:71
+	android:value
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:103:17-69
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:102:24-105
+meta-data#android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:105:13-106:60
+	android:value
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:106:17-58
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:105:24-97
+meta-data#android.app.shortcuts
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:108:13-97
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:108:61-94
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:108:24-60
+meta-data#android.support.customtabs.trusted.FALLBACK_STRATEGY
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:110:13-111:56
+	android:value
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:111:17-53
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:110:24-91
+meta-data#android.support.customtabs.trusted.SCREEN_ORIENTATION
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:117:13-118:54
+	android:value
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:118:17-52
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:117:24-92
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:124:13-127:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:125:17-69
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:125:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:126:17-77
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:126:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/hostName+data:scheme:https
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:129:13-135:29
+	android:autoVerify
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:129:28-53
+action#android.intent.action.VIEW
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:130:17-68
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:130:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:131:17-76
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:131:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:132:17-77
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:132:27-75
+data
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:133:17-134:54
+	android:host
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:134:21-52
+	android:scheme
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:133:23-45
+activity#com.google.androidbrowserhelper.trusted.FocusActivity
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:140:9-90
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:140:19-87
+activity#com.google.androidbrowserhelper.trusted.WebViewFallbackActivity
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:142:9-143:62
+	android:configChanges
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:143:13-59
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:142:19-97
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:145:9-153:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:148:13-47
+	android:authorities
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:147:13-60
+	android:exported
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:149:13-37
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:146:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:150:13-152:53
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:152:17-50
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:151:17-67
+service#org.myj2j.twa.DelegationService
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:155:9-170:19
+	android:enabled
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:157:13-55
+	android:exported
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:158:13-56
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:156:13-46
+meta-data#android.support.customtabs.trusted.SMALL_ICON
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:161:17-163:73
+	android:resource
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:163:21-70
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:162:21-81
+intent-filter#action:name:android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:166:13-169:29
+action#android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE
+ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:167:17-105
+	android:name
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml:167:25-103
+uses-sdk
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\Hamza\.gradle\caches\transforms-3\841a3070c1db12b2be200ad1b644e9c9\transformed\androidbrowserhelper-2.4.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\Hamza\.gradle\caches\transforms-3\841a3070c1db12b2be200ad1b644e9c9\transformed\androidbrowserhelper-2.4.0\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Hamza\.gradle\caches\transforms-3\92ba39f2beb0153d1f0d3ff9d186f6f8\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Hamza\.gradle\caches\transforms-3\92ba39f2beb0153d1f0d3ff9d186f6f8\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\21d84949d471e161d7d44ca5077f5a4f\transformed\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\21d84949d471e161d7d44ca5077f5a4f\transformed\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\badfc14817353b6065b9a3224afef766\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-3\badfc14817353b6065b9a3224afef766\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Hamza\.gradle\caches\transforms-3\1808fa60ef65dfd331c0d005c567d21e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Hamza\.gradle\caches\transforms-3\1808fa60ef65dfd331c0d005c567d21e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Hamza\.gradle\caches\transforms-3\fd027d76d41a861116a821e323b073ba\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Hamza\.gradle\caches\transforms-3\fd027d76d41a861116a821e323b073ba\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\AndroidManifest.xml
+queries
+ADDED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\Hamza\.gradle\caches\transforms-3\841a3070c1db12b2be200ad1b644e9c9\transformed\androidbrowserhelper-2.4.0\AndroidManifest.xml:26:5-34:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\Hamza\.gradle\caches\transforms-3\841a3070c1db12b2be200ad1b644e9c9\transformed\androidbrowserhelper-2.4.0\AndroidManifest.xml:27:9-33:18

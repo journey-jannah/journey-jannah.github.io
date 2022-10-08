@@ -1,0 +1,11 @@
+org.myj2j.twa.app-core-1.1.0-0 C:\Users\Hamza\.gradle\caches\transforms-3\21d84949d471e161d7d44ca5077f5a4f\transformed\core-1.1.0\res
+org.myj2j.twa.app-androidbrowserhelper-2.4.0-1 C:\Users\Hamza\.gradle\caches\transforms-3\841a3070c1db12b2be200ad1b644e9c9\transformed\androidbrowserhelper-2.4.0\res
+org.myj2j.twa.app-browser-1.4.0-2 C:\Users\Hamza\.gradle\caches\transforms-3\92ba39f2beb0153d1f0d3ff9d186f6f8\transformed\browser-1.4.0\res
+org.myj2j.twa.app-pngs-3 C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\build\generated\res\pngs\debug
+org.myj2j.twa.app-resValues-4 C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\build\generated\res\resValues\debug
+org.myj2j.twa.app-rs-5 C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\build\generated\res\rs\debug
+org.myj2j.twa.app-mergeDebugResources-6 C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+org.myj2j.twa.app-mergeDebugResources-7 C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+org.myj2j.twa.app-merged_res-8 C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\build\intermediates\merged_res\debug
+org.myj2j.twa.app-debug-9 C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\debug\res
+org.myj2j.twa.app-main-10 C:\Users\Hamza\Documents\J2J\journey-jannah.github.io\app\src\main\res

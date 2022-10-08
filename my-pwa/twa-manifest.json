@@ -1,0 +1,43 @@
+{
+  "packageId": "org.myj2j.twa",
+  "host": "myj2j.org",
+  "name": "Journey to Jannah",
+  "launcherName": "J2J",
+  "display": "standalone",
+  "themeColor": "#FEA177",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FEA177",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://myj2j.org/logo512.png",
+  "maskableIconUrl": "https://myj2j.org/mask192.png",
+  "monochromeIconUrl": "https://myj2j.org/monochrome.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\Hamza\\Documents\\J2J\\jounrey-jannah.github.io\\my-pwa\\",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://myj2j.org/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://myj2j.org/",
+  "minSdkVersion": 19,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}

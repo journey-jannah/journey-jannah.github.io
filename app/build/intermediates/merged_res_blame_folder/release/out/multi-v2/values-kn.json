@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.myj2j.twa.app-mergeReleaseResources-6:/values-kn/values-kn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Hamza\\.gradle\\caches\\transforms-3\\21d84949d471e161d7d44ca5077f5a4f\\transformed\\core-1.1.0\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "486",
+                        "endColumns": "100",
+                        "endOffsets": "582"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hamza\\.gradle\\caches\\transforms-3\\92ba39f2beb0153d1f0d3ff9d186f6f8\\transformed\\browser-1.4.0\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,169,269,385",
+                        "endColumns": "113,99,115,100",
+                        "endOffsets": "164,264,380,481"
+                    }
+                }
+            ]
+        }
+    ]
+}
