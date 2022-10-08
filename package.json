@@ -12,6 +12,8 @@
     "@stripe/react-stripe-js": "^1.12.0",
     "@stripe/stripe-js": "^1.38.1",
     "bootstrap": "^4.3.1",
+    "firebase": "^9.11.0",
+    "node": "^18.10.0",
     "node-sass": "^4.14.1",
     "pageclip": "^1.0.0",
     "react": "^16.12.0",
